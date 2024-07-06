@@ -1,0 +1,15 @@
+{
+  "name": "ecma262",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01": "cmake -B build",
+    "02": "cmake --build build",
+    "build": "pnpm 01 && pnpm 02",
+    "test": "bin/ecma262_test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
