@@ -7,7 +7,9 @@
     "01": "cmake -B build",
     "02": "cmake --build build",
     "build": "pnpm 01 && pnpm 02",
-    "test": "bin/ecma262_test"
+    "test:linux": "bin/ecma262_test",
+    "test:windows": "bin/ecma262_test.exe",
+    "clear:linux": "rm -rf bin build lib"
   },
   "keywords": [],
   "author": "",

@@ -2,6 +2,6 @@
 
 int main()
 {
-    ecma262::EString *a = new ecma262::EString();
-    a->test();
+
+    return 0;
 }
